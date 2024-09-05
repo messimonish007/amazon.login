@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+.user-input{
+    background-color: white;
+ 
+    border-radius: 9px;
+    height: 480px;
+    width: 450px;
+   
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color:rgb(28, 28, 28);;
+
+}
+@media screen and (max-width:600px) {
+    .user-input{
+
+        height: 100vh;
+        width: 100vh;
+    
+    
+}
+body{
+    background-color: white;
+}
+}
+.zomato-sign div{
+    margin: 15px;
+}
+.headding{
+    display: flex;
+    justify-content: space-between;
+    color:#474646;
+    align-items: flex-start;
+    font-size: 16px;
+}
+div>h1{
+    font-weight: 500;
+    line-height: 18px;
+}
+div>i{
+    font-size: 35px;
+    
+}
+.input-ph button{
+    background-color:white;
+    height:50px;
+    width:100%;
+    border: 1px solid #b3b1b1;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+
+}
+.input-ph:hover{
+    border: 2px solid rgb(44, 131, 44);
+    border-radius: 7px;
+}
+.input-ph select{
+    height: 100%;
+    width:80px;
+    border: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    background-color:white;
+    color: #666363 ;
+    font-weight: 500;
+    margin: 10px;
+}
+.input-ph img{
+    border-radius: 5px;
+}
+.line {
+    width: 1px;
+    height: 30px;
+    border: 0.25px solid #e2d9d9;
+
+    line-height: 35px;
+}
+.input-ph input{
+   
+    height: 40px;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #cfcfcf;
+    border: none;
+
+
+    
+}
+.otp-button button{
+    height:50px ;
+    width: 100%;
+    background-color: rgb(226, 77, 77);
+    border-radius: 9px;
+    border: transparent;
+    color: aliceblue;
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+.otp-button button:hover{
+    background-color: rgb(192, 66, 66);
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#cfcfcf ;
+}
+.or div{
+    height: 1px;
+    width: 120%;
+    border: 0.25px solid #cfcfcf;
+}
+.google button{
+    height: 50px;
+    width: 100%;
+    border-radius: 9px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px #beb8b8 solid ;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #666363 ;
+    cursor: pointer;
+
+
+}
+.google img{
+    margin: 15px;
+}
+.mail button{
+    font-weight: 400;
+    cursor: pointer;
+
+}
+.new-register{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position:relative;
+top: -20px;
+}
+.new-register p{
+    color:  rgb(54, 54, 54);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+
+}
+.new-register a{
+    color: rgb(239, 79, 95);
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
